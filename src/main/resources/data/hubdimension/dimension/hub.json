@@ -1,0 +1,13 @@
+{
+  "type": "hubdimension:hub",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "hubdimension:hub",
+      "features": false,
+      "lakes": false,
+      "layers": [],
+      "structure_overrides": []
+    }
+  }
+}

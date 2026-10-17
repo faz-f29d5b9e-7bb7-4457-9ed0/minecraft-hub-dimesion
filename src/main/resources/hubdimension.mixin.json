@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.faz.hubdimension.mixin",
+  //"compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LevelMixin",
+    "ServerLevelMixin"
+  ]
+}
