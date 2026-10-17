@@ -1,4 +1,4 @@
-
+https://modrinth.com/mod/hub-lobby-dimension
 Installation information
 =======
 
