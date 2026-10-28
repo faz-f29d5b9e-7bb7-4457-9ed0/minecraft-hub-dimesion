@@ -67,7 +67,7 @@ public final class HubConfig {
         TIME_MODE = b.comment("STATIC = always the same time, FOLLOW_OVERWORLD = same day/night cycle as the overworld")
                 .defineEnum("timeMode", TimeMode.STATIC);
         STATIC_TIME = b.comment("Time of day when timeMode = STATIC (0 sunrise, 6000 noon, 12000 sunset, 18000 midnight)")
-                .defineInRange("staticTime", 6000, 12500, 24000);
+                .defineInRange("staticTime", 12500, 6000, 24000);
         WEATHER_MODE = b.comment("CLEAR / RAIN / THUNDER = fixed, FOLLOW_OVERWORLD = same weather as the overworld")
                 .defineEnum("weatherMode", WeatherMode.CLEAR);
         b.pop();
